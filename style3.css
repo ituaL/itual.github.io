@@ -1,10 +1,17 @@
 html {
-    background-color: #1f1f1f;
-    margin:0;
+    background-color: #202020;
+    padding: 0px;
 }
 body {
-    margin: 0;
+    width: 80%;
+    min-height: calc(100vh - 4em);
+    margin: 0 auto;
+    padding: 2em;
     background-color: #1f1f1f;
+    border-color: #5a5a5a;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 20px;
 }
 p {
     color: #dfdfdf;
@@ -14,30 +21,6 @@ p {
     margin: 4pt;
 }
 
-header {
-  padding: 1em;
-  background-color: #500076;
-}
-
-#body {
-    width: 80%;
-    margin: 0 auto;
-
-}
-
-#results {
-
-  width: 80%;
-    min-height: calc(100vh - 4em);
-    margin: 0 auto;
-    padding: 2em;
-    background-color: #1f1f1f;
-    border-color: #5a5a5a;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-width: 20px;
-
-}
 
 p.value {
     margin-top: 22px;
@@ -272,14 +255,14 @@ span.weight-300 {
     margin-top: 15px;
 }
 #banner {
-  border-color: #444444;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 8pt;
-  display: block;
-  margin: 8pt;
-  margin-left: auto;
-  margin-right: auto;
+    border-color: #444444;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8pt;
+    display: block;
+    margin: 8pt;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Our mixin positions a copy of our text
@@ -536,4 +519,3 @@ text set in the data-text attribute. */
     font-family:"Prototype";
     src: url("Prototype.ttf") format("truetype");
   }
-
