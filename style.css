@@ -21,6 +21,7 @@ p {
     margin: 4pt;
 }
 
+
 p.value {
     margin-top: 22px;
     margin-bottom: 22px;
@@ -61,7 +62,7 @@ p.question {
 }
 h1 {
     color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Prototype;
     font-size: 72pt;
     text-align: center;
     line-height: 72pt;
@@ -114,6 +115,9 @@ img.center {
     margin: -2px auto;
     cursor: pointer;
 }
+
+
+
 .button:hover, .button:focus { background: #1687e0; }
 .stronglyAgree { background: #1b5e20; }
 .stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
@@ -269,7 +273,7 @@ text set in the data-text attribute. */
     position: relative;
     color: white;
     font-size: 4em;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     /* Animation provies a slight random skew. Check bottom of doc
     for more information on how to random skew. */
     animation: glitch-skew 1s infinite linear alternate-reverse;
@@ -303,10 +307,6 @@ text set in the data-text attribute. */
     animation: glitch-anim2 1s infinite linear alternate-reverse;
   }
   
-  /* Creates an animation with 20 steaps. For each step, it calculates 
-  a percentage for the specific step. It then generates a random clip
-  box to be used for the random glitch effect. Also adds a very subtle
-  skew to change the 'thickness' of the glitch.*/
   @keyframes glitch-anim {
     0% {
       clip: rect(54px, 9999px, 80px, 0);
@@ -514,3 +514,9 @@ text set in the data-text attribute. */
       transform: skew(-3deg);
     }
   }
+
+  @font-face {
+    font-family:"Prototype";
+    src: url("Prototype.ttf") format("truetype");
+  }
+
