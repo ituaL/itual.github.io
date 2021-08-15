@@ -136,10 +136,10 @@ img.center {
 
 
 .button:hover, .button:focus { background: #1687e0; }
-.stronglyAgree { background: #1b5e20; }
-.stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
-.agree { background: #4caf50; }
-.agree:hover, .agree:focus { background: #29942e; }
+.stronglyAgree { background: #0b4eca; }
+.stronglyAgree:hover, .stronglyAgree:focus { background: #033ba3; }
+.agree { background: #3573e6; }
+.agree:hover, .agree:focus { background: #20468b; }
 .neutral { background: #949494; }
 .neutral:hover, .neutral:focus { background: #656565; }
 .disagree { background: #f44336; }
