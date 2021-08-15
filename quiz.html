@@ -36,7 +36,23 @@
     let dipl_array = new Array(questions.length);
     let govt_array = new Array(questions.length);
     let scty_array = new Array(questions.length);
+
     var qn = 0; // Question number
+    // Shuffle 
+    function shuffle(array) {
+    var i = 0,
+    j = 0,
+    temp = null;
+
+    for (i = array.length - 1; i > 0; i -= 1) {
+    j = Math.floor(Math.random() * (i + 1));
+    temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+    }
+    }
+    shuffle(questions);
+    // Shuffle
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)

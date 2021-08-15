@@ -72,6 +72,24 @@ ideologies = [
         }
     },
     {
+        "name": "National Bolshevism",
+        "stats": {
+            "econ": 90,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Stalinism",
+        "stats": {
+            "econ": 90,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 30
+        }
+    },
+    {
         "name": "State Socialism",
         "stats": {
             "econ": 80,
@@ -317,7 +335,7 @@ ideologies = [
     {
         "name": "Nazism",
         "stats": {
-            "econ": 40,
+            "econ": 50,
             "dipl": 0,
             "govt": 0,
             "scty": 5
@@ -335,19 +353,10 @@ ideologies = [
     {
         "name": "Fascism",
         "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Capitalist Fascism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "econ": 50,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 10
         }
     },
     {
@@ -466,5 +475,14 @@ ideologies = [
             "govt": 100,
             "scty": 50
         }
-    }
+    },
+    {
+        "name": "Hoppean",
+        "stats": {
+            "econ": 0,
+            "dipl": 50,
+            "govt": 100,
+            "scty": 30
+        }
+    },
 ];
